@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E9B0ADC208E100600102368 /* Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B0ADB208E100600102368 /* Valid Parentheses.cpp */; };
 		4EB846F7208E20280023AC9A /* Merge Two Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB846F6208E20280023AC9A /* Merge Two Sorted Lists.cpp */; };
+		4EB846F9208E292E0023AC9A /* Generate Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB846F8208E292E0023AC9A /* Generate Parentheses.cpp */; };
 		4EC06C6C208DD06100654BEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC06C6B208DD06100654BEE /* main.cpp */; };
 		4EC06C74208DD24C00654BEE /* Remove Nth Node From End of List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC06C72208DD24C00654BEE /* Remove Nth Node From End of List.cpp */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		4E9B0ADA208DEE5400102368 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		4E9B0ADB208E100600102368 /* Valid Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid Parentheses.cpp"; sourceTree = "<group>"; };
 		4EB846F6208E20280023AC9A /* Merge Two Sorted Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Two Sorted Lists.cpp"; sourceTree = "<group>"; };
+		4EB846F8208E292E0023AC9A /* Generate Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Generate Parentheses.cpp"; sourceTree = "<group>"; };
 		4EC06C68208DD06100654BEE /* leetcode2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode2; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC06C6B208DD06100654BEE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4EC06C72208DD24C00654BEE /* Remove Nth Node From End of List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove Nth Node From End of List.cpp"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				4E9B0ADA208DEE5400102368 /* Header.h */,
 				4E9B0ADB208E100600102368 /* Valid Parentheses.cpp */,
 				4EB846F6208E20280023AC9A /* Merge Two Sorted Lists.cpp */,
+				4EB846F8208E292E0023AC9A /* Generate Parentheses.cpp */,
 			);
 			path = leetcode2;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB846F9208E292E0023AC9A /* Generate Parentheses.cpp in Sources */,
 				4E9B0ADC208E100600102368 /* Valid Parentheses.cpp in Sources */,
 				4EB846F7208E20280023AC9A /* Merge Two Sorted Lists.cpp in Sources */,
 				4EC06C6C208DD06100654BEE /* main.cpp in Sources */,
