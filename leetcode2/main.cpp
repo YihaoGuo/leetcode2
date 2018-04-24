@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include "Header.h"
-#include "Next Permutation.cpp"
+#include "Longest Valid Parentheses.cpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    ListNode*tmp1=new ListNode(1);
@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
 //    tmp2->next=tmp3;
 //    vector<ListNode *> lists={tmp1,tmp4,tmp5};
     
-    vector<int> tmp={2,3,1,3,3};
-    Solution().nextPermutation(tmp);
+    string s="(()";
+    Solution().longestValidParentheses(s);
     return 0;
 }

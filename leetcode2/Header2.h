@@ -9,5 +9,6 @@
 #ifndef Header2_h
 #define Header2_h
 #include <vector>
+#include <string>
 using namespace std;
 #endif /* Header2_h */
