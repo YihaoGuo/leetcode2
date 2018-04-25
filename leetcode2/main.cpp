@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include "Header.h"
-#include "Longest Valid Parentheses.cpp"
+#include "Search in Rotated Sorted Array.cpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    ListNode*tmp1=new ListNode(1);
@@ -20,7 +20,8 @@ int main(int argc, const char * argv[]) {
 //    tmp2->next=tmp3;
 //    vector<ListNode *> lists={tmp1,tmp4,tmp5};
     
-    string s="(()";
-    Solution().longestValidParentheses(s);
+    vector<int> tmp={6,7,1,2,3,4,5};
+    
+   int i= Solution().search(tmp, 6);
     return 0;
 }
