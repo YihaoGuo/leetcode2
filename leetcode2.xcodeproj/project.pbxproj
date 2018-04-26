@@ -17,6 +17,7 @@
 		4EC06C6C208DD06100654BEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC06C6B208DD06100654BEE /* main.cpp */; };
 		4EC06C74208DD24C00654BEE /* Remove Nth Node From End of List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC06C72208DD24C00654BEE /* Remove Nth Node From End of List.cpp */; };
 		4EC3DCAB20916C6C004A2F24 /* Search for a Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3DCAA20916C6C004A2F24 /* Search for a Range.cpp */; };
+		4EC3DCAE2091769A004A2F24 /* Combination Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3DCAC2091769A004A2F24 /* Combination Sum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		4EC06C6B208DD06100654BEE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4EC06C72208DD24C00654BEE /* Remove Nth Node From End of List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove Nth Node From End of List.cpp"; sourceTree = "<group>"; };
 		4EC3DCAA20916C6C004A2F24 /* Search for a Range.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search for a Range.cpp"; sourceTree = "<group>"; };
+		4EC3DCAC2091769A004A2F24 /* Combination Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Combination Sum.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				4E412B0E208F20620001373F /* Longest Valid Parentheses.cpp */,
 				4E412B10208F695B0001373F /* Search in Rotated Sorted Array.cpp */,
 				4EC3DCAA20916C6C004A2F24 /* Search for a Range.cpp */,
+				4EC3DCAC2091769A004A2F24 /* Combination Sum.cpp */,
 			);
 			path = leetcode2;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				4EB846F7208E20280023AC9A /* Merge Two Sorted Lists.cpp in Sources */,
 				4EC06C6C208DD06100654BEE /* main.cpp in Sources */,
 				4EC3DCAB20916C6C004A2F24 /* Search for a Range.cpp in Sources */,
+				4EC3DCAE2091769A004A2F24 /* Combination Sum.cpp in Sources */,
 				4EC06C74208DD24C00654BEE /* Remove Nth Node From End of List.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

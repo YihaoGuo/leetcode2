@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include "Header.h"
-#include "Search in Rotated Sorted Array.cpp"
+#include "Combination Sum.cpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    ListNode*tmp1=new ListNode(1);
@@ -20,8 +20,8 @@ int main(int argc, const char * argv[]) {
 //    tmp2->next=tmp3;
 //    vector<ListNode *> lists={tmp1,tmp4,tmp5};
     
-    vector<int> tmp={6,7,1,2,3,4,5};
-    
-   int i= Solution().search(tmp, 6);
+    vector<int> tmp={2,3,6,7};
+    vector<vector<int>> c=Solution().combinationSum(tmp, 7);
+   
     return 0;
 }
