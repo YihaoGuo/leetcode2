@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include "Header.h"
-#include "Combination Sum.cpp"
+#include "Trapping Rain Water.cpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    ListNode*tmp1=new ListNode(1);
@@ -20,8 +20,8 @@ int main(int argc, const char * argv[]) {
 //    tmp2->next=tmp3;
 //    vector<ListNode *> lists={tmp1,tmp4,tmp5};
     
-    vector<int> tmp={2,3,6,7};
-    vector<vector<int>> c=Solution().combinationSum(tmp, 7);
+    vector<int> tmp={0,1,0,2,1,0,1,3,2,1,2,1};
+    int c=Solution().trap(tmp);
    
     return 0;
 }
