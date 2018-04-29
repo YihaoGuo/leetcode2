@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E269ECA2096026000753217 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E269EC92096026000753217 /* Permutations.cpp */; };
 		4E412B08208EF1350001373F /* Merge k Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E412B07208EF1350001373F /* Merge k Sorted Lists.cpp */; };
 		4E412B0A208F0A610001373F /* Next Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E412B09208F0A610001373F /* Next Permutation.cpp */; };
 		4E412B0F208F20620001373F /* Longest Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E412B0E208F20620001373F /* Longest Valid Parentheses.cpp */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E269EC92096026000753217 /* Permutations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutations.cpp; sourceTree = "<group>"; };
 		4E412B07208EF1350001373F /* Merge k Sorted Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge k Sorted Lists.cpp"; sourceTree = "<group>"; };
 		4E412B09208F0A610001373F /* Next Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Next Permutation.cpp"; sourceTree = "<group>"; };
 		4E412B0B208F0A7D0001373F /* Header2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header2.h; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				4EC3DCAA20916C6C004A2F24 /* Search for a Range.cpp */,
 				4EC3DCAC2091769A004A2F24 /* Combination Sum.cpp */,
 				4E83027C2092F88300D87FB0 /* Trapping Rain Water.cpp */,
+				4E269EC92096026000753217 /* Permutations.cpp */,
 			);
 			path = leetcode2;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E412B11208F695B0001373F /* Search in Rotated Sorted Array.cpp in Sources */,
+				4E269ECA2096026000753217 /* Permutations.cpp in Sources */,
 				4EB846F9208E292E0023AC9A /* Generate Parentheses.cpp in Sources */,
 				4E9B0ADC208E100600102368 /* Valid Parentheses.cpp in Sources */,
 				4E412B0A208F0A610001373F /* Next Permutation.cpp in Sources */,
