@@ -14,6 +14,7 @@
 		4E412B0F208F20620001373F /* Longest Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E412B0E208F20620001373F /* Longest Valid Parentheses.cpp */; };
 		4E412B11208F695B0001373F /* Search in Rotated Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E412B10208F695B0001373F /* Search in Rotated Sorted Array.cpp */; };
 		4E83027D2092F88300D87FB0 /* Trapping Rain Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E83027C2092F88300D87FB0 /* Trapping Rain Water.cpp */; };
+		4E888D022096C63000BC01F3 /* Group Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E888D012096C63000BC01F3 /* Group Anagrams.cpp */; };
 		4E9B0ADC208E100600102368 /* Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B0ADB208E100600102368 /* Valid Parentheses.cpp */; };
 		4EB846F7208E20280023AC9A /* Merge Two Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB846F6208E20280023AC9A /* Merge Two Sorted Lists.cpp */; };
 		4EB846F9208E292E0023AC9A /* Generate Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB846F8208E292E0023AC9A /* Generate Parentheses.cpp */; };
@@ -44,6 +45,7 @@
 		4E412B0E208F20620001373F /* Longest Valid Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Valid Parentheses.cpp"; sourceTree = "<group>"; };
 		4E412B10208F695B0001373F /* Search in Rotated Sorted Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search in Rotated Sorted Array.cpp"; sourceTree = "<group>"; };
 		4E83027C2092F88300D87FB0 /* Trapping Rain Water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Trapping Rain Water.cpp"; sourceTree = "<group>"; };
+		4E888D012096C63000BC01F3 /* Group Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Group Anagrams.cpp"; sourceTree = "<group>"; };
 		4E9B0ADA208DEE5400102368 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		4E9B0ADB208E100600102368 /* Valid Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid Parentheses.cpp"; sourceTree = "<group>"; };
 		4EB846F6208E20280023AC9A /* Merge Two Sorted Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Two Sorted Lists.cpp"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				4E83027C2092F88300D87FB0 /* Trapping Rain Water.cpp */,
 				4E269EC92096026000753217 /* Permutations.cpp */,
 				4E269ECB2096104F00753217 /* Rotate Image.cpp */,
+				4E888D012096C63000BC01F3 /* Group Anagrams.cpp */,
 			);
 			path = leetcode2;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				4E412B0A208F0A610001373F /* Next Permutation.cpp in Sources */,
 				4E412B08208EF1350001373F /* Merge k Sorted Lists.cpp in Sources */,
 				4E412B0F208F20620001373F /* Longest Valid Parentheses.cpp in Sources */,
+				4E888D022096C63000BC01F3 /* Group Anagrams.cpp in Sources */,
 				4E269ECC2096104F00753217 /* Rotate Image.cpp in Sources */,
 				4EB846F7208E20280023AC9A /* Merge Two Sorted Lists.cpp in Sources */,
 				4EC06C6C208DD06100654BEE /* main.cpp in Sources */,
