@@ -7,45 +7,28 @@
 //
 
 #include <stdio.h>
+#include <iostream>
 #include "Header2.h"
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        
         vector<vector<string>> o;
-        while (strs.size()>0) {
-            string now =strs[0];
-            vector<string> tmp1;
-            tmp1.push_back(now);
-            strs.erase(strs.begin());
-            for (int i=0; i<strs.size(); i++) {
-                string now2 =now;
-                if (strs[i].size()==now2.size()) {
-                    string bi =strs[i];
-                    int i2=0;
-                    for (; i2<now2.size(); i2++) {
-                        int ok=0;
-                        int i4=0;
-                        for (; i4<bi.size(); i4++) {
-                            if (now[i2]==bi[i4]) {
-                                ok=1;
-                                break;
-                            }
-                        }
-                        if (ok==0) {
-                            break;
-                        }
-                        
-                        bi.erase(bi.begin()+i4);
-                        ok=0;
-                        
-                    }
-                    if (i2==now2.size()) {
-                        tmp1.push_back(strs[i]);
-                        strs.erase(strs.begin()+i);
-                    }
-                }
-            }
-            o.push_back(tmp1);
+        vector<pair<string , string >> save;
+        for (int i=0; i<strs.size(); i++) {
+            string tmp1=strs[i];
+            pair<string, string> tmp2;
+            tmp2.second=tmp1;
+            sort(tmp1.begin(), tmp1.end());
+            tmp2.first=tmp1;
+            save.push_back(tmp2);
+        }
+        map<string, vector<string>> save2;
+        for (int i=0; i<strs.size(); i++) {
+            save2[save[i].first].push_back(save[i].second);
+        }
+        for (auto it:save2){
+            o.push_back(it.second);
         }
         return o;
     }

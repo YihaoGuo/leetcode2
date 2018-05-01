@@ -10,5 +10,7 @@
 #define Header2_h
 #include <vector>
 #include <string>
+#include <map>
+
 using namespace std;
 #endif /* Header2_h */
