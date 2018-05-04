@@ -13,6 +13,7 @@
 		4E412B0A208F0A610001373F /* Next Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E412B09208F0A610001373F /* Next Permutation.cpp */; };
 		4E412B0F208F20620001373F /* Longest Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E412B0E208F20620001373F /* Longest Valid Parentheses.cpp */; };
 		4E412B11208F695B0001373F /* Search in Rotated Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E412B10208F695B0001373F /* Search in Rotated Sorted Array.cpp */; };
+		4E62505D2099C91B00B00D12 /* Jump Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62505C2099C91B00B00D12 /* Jump Game.cpp */; };
 		4E6405AD2097F316002D1E22 /* Maximum Subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E6405AC2097F316002D1E22 /* Maximum Subarray.cpp */; };
 		4E83027D2092F88300D87FB0 /* Trapping Rain Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E83027C2092F88300D87FB0 /* Trapping Rain Water.cpp */; };
 		4E888D022096C63000BC01F3 /* Group Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E888D012096C63000BC01F3 /* Group Anagrams.cpp */; };
@@ -45,6 +46,7 @@
 		4E412B0B208F0A7D0001373F /* Header2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header2.h; sourceTree = "<group>"; };
 		4E412B0E208F20620001373F /* Longest Valid Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Valid Parentheses.cpp"; sourceTree = "<group>"; };
 		4E412B10208F695B0001373F /* Search in Rotated Sorted Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search in Rotated Sorted Array.cpp"; sourceTree = "<group>"; };
+		4E62505C2099C91B00B00D12 /* Jump Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Jump Game.cpp"; sourceTree = "<group>"; };
 		4E6405AC2097F316002D1E22 /* Maximum Subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum Subarray.cpp"; sourceTree = "<group>"; };
 		4E83027C2092F88300D87FB0 /* Trapping Rain Water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Trapping Rain Water.cpp"; sourceTree = "<group>"; };
 		4E888D012096C63000BC01F3 /* Group Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Group Anagrams.cpp"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				4E269ECB2096104F00753217 /* Rotate Image.cpp */,
 				4E888D012096C63000BC01F3 /* Group Anagrams.cpp */,
 				4E6405AC2097F316002D1E22 /* Maximum Subarray.cpp */,
+				4E62505C2099C91B00B00D12 /* Jump Game.cpp */,
 			);
 			path = leetcode2;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				4E269ECA2096026000753217 /* Permutations.cpp in Sources */,
 				4EB846F9208E292E0023AC9A /* Generate Parentheses.cpp in Sources */,
 				4E9B0ADC208E100600102368 /* Valid Parentheses.cpp in Sources */,
+				4E62505D2099C91B00B00D12 /* Jump Game.cpp in Sources */,
 				4E412B0A208F0A610001373F /* Next Permutation.cpp in Sources */,
 				4E412B08208EF1350001373F /* Merge k Sorted Lists.cpp in Sources */,
 				4E412B0F208F20620001373F /* Longest Valid Parentheses.cpp in Sources */,
